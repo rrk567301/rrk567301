@@ -1,0 +1,28 @@
+name: 'Feature request'
+description: 'Help me improve the project by requesting a feature.'
+labels: ["enhancement"]
+assignees:
+    - 'rrk567301'
+body:
+    -
+        type: checkboxes
+        attributes:
+            label: 'Prerequisites'
+            description: 'By submitting this issue, you agree to the following:'
+            options:
+                -
+                    label: 'I confirm that I have reviewed existing open and closed issues to ensure this is not a duplicate.'
+                    required: true
+    -
+        type: textarea
+        attributes:
+            label: 'Describe the feature'
+            placeholder: 'A clear and concise description of the feature.'
+        validations:
+            required: true
+    -
+        type: textarea
+        attributes:
+            label: 'Additional context'
+            description: 'Additional information that may help me understand the request.'
+            placeholder: '[e.g. Operating System]'
